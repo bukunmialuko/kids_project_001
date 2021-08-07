@@ -29,7 +29,14 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: EdgeInsets.all(32),
             width: MediaQuery.of(context).size.width * 0.7,
             height: MediaQuery.of(context).size.width * 0.7,
-            color: Colors.purple,
+            // color: Colors.purple,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/images/passport.png'),
+                fit: BoxFit.fill,
+              ),
+              // shape: BoxShape.circle,
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(32),
